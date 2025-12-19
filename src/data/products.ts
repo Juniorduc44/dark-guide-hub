@@ -1,0 +1,133 @@
+export interface Product {
+  id: string;
+  title: string;
+  description: string;
+  price: number;
+  priceSats: number;
+  image: string;
+  emoji: string;
+  pdfPath: string;
+}
+
+export const products: Product[] = [
+  {
+    id: 'ccna-guide',
+    title: 'CCNA Complete Guide',
+    description: 'Cisco Certified Network Associate - comprehensive networking fundamentals and certification prep.',
+    price: 4.00,
+    priceSats: 15000,
+    image: 'https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=600&h=400&fit=crop',
+    emoji: '🌐',
+    pdfPath: '/pdfs/ccna-complete-guide.pdf',
+  },
+  {
+    id: 'azure-guide',
+    title: 'Microsoft Azure Portal – Beginner Guide',
+    description: 'Complete beginner guide to Microsoft Azure cloud services and portal navigation.',
+    price: 5.00,
+    priceSats: 18000,
+    image: 'https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=600&h=400&fit=crop',
+    emoji: '☁️',
+    pdfPath: '/pdfs/azure-beginner-guide.pdf',
+  },
+  {
+    id: 'python-hacking',
+    title: 'Ethical Hacking with Python',
+    description: 'Build your own hacking scripts and tools with Python from scratch. Beginner to practical guide.',
+    price: 5.00,
+    priceSats: 18000,
+    image: 'https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=600&h=400&fit=crop',
+    emoji: '🐍🛡️',
+    pdfPath: '/pdfs/ethical-hacking-python.pdf',
+  },
+  {
+    id: 'linux-interview',
+    title: 'Linux Interview Questions',
+    description: 'Beginner to Intermediate Linux interview preparation with real-world scenarios.',
+    price: 4.00,
+    priceSats: 15000,
+    image: 'https://images.unsplash.com/photo-1629654297299-c8506221ca97?w=600&h=400&fit=crop',
+    emoji: '🐧',
+    pdfPath: '/pdfs/linux-interview-questions.pdf',
+  },
+  {
+    id: 'docker-intro',
+    title: 'Docker – Introduction',
+    description: 'Introduction and fundamentals of Docker containerization for modern development.',
+    price: 3.00,
+    priceSats: 11000,
+    image: 'https://images.unsplash.com/photo-1605745341112-85968b19335b?w=600&h=400&fit=crop',
+    emoji: '🐳',
+    pdfPath: '/pdfs/docker-introduction.pdf',
+  },
+  {
+    id: 'aws-architect',
+    title: 'AWS Solutions Architect',
+    description: 'Quick guide for AWS Certified Solutions Architect exam preparation.',
+    price: 4.00,
+    priceSats: 15000,
+    image: 'https://images.unsplash.com/photo-1614064641938-3bbee52942c7?w=600&h=400&fit=crop',
+    emoji: '☁️',
+    pdfPath: '/pdfs/aws-solutions-architect.pdf',
+  },
+  {
+    id: 'password-security',
+    title: 'Password Security Guide',
+    description: 'Complete and easy guide to password security best practices and implementation.',
+    price: 4.00,
+    priceSats: 15000,
+    image: 'https://images.unsplash.com/photo-1555949963-ff9fe0c870eb?w=600&h=400&fit=crop',
+    emoji: '🔐',
+    pdfPath: '/pdfs/password-security-guide.pdf',
+  },
+  {
+    id: 'ml-quick-guide',
+    title: 'Machine Learning Quick Guide',
+    description: 'Complete quick guide to machine learning concepts, algorithms, and implementation.',
+    price: 4.00,
+    priceSats: 15000,
+    image: 'https://images.unsplash.com/photo-1677442136019-21780ecad995?w=600&h=400&fit=crop',
+    emoji: '🤖',
+    pdfPath: '/pdfs/machine-learning-quick-guide.pdf',
+  },
+  {
+    id: 'cyber-attacks',
+    title: 'Cyber Security Attacks',
+    description: 'Clear and interview-focused guide covering common cyber security attack vectors.',
+    price: 5.00,
+    priceSats: 18000,
+    image: 'https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=600&h=400&fit=crop',
+    emoji: '🛡️',
+    pdfPath: '/pdfs/cyber-security-attacks.pdf',
+  },
+  {
+    id: 'data-science-guide',
+    title: 'Data Science Quick Guide',
+    description: 'Complete quick guide to data science fundamentals and practical applications.',
+    price: 3.00,
+    priceSats: 11000,
+    image: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=600&h=400&fit=crop',
+    emoji: '📊',
+    pdfPath: '/pdfs/data-science-quick-guide.pdf',
+  },
+  {
+    id: 'docker-notes',
+    title: 'Docker Quick Notes',
+    description: 'Quick reference notes and guide for Docker commands and best practices.',
+    price: 3.00,
+    priceSats: 11000,
+    image: 'https://images.unsplash.com/photo-1618401471353-b98afee0b2eb?w=600&h=400&fit=crop',
+    emoji: '🐳',
+    pdfPath: '/pdfs/docker-quick-notes.pdf',
+  },
+  {
+    id: 'palo-alto-setup',
+    title: 'Basic Palo Alto Setup',
+    description: 'Step-by-step guide to basic Palo Alto firewall configuration and setup.',
+    price: 2.00,
+    priceSats: 7000,
+    image: 'https://images.unsplash.com/photo-1563206767-5b18f218e8de?w=600&h=400&fit=crop',
+    emoji: '🔥',
+    pdfPath: '/pdfs/palo-alto-basic-setup.pdf',
+  },
+];
